@@ -288,7 +288,7 @@ body {
   
   .side-menu-design {
     background-color: #1a203b;
-    background-image: url('/images/menubackground.png');
+    background-image: url('images/menubackground.png');
     background-size: cover;
     background-repeat: repeat;
     cursor: pointer;
