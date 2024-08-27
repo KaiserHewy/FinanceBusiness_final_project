@@ -125,7 +125,7 @@ var swiper = new Swiper(".mySwiper", {
       },
   });
 
-// SWIPER REMOVE BRIEF APPEARANCE OF HIDDEN CONENT ON LOAD
+// SWIPER REMOVE BRIEF APPEARANCE OF HIDDEN CONTENT ON LOAD
 
 const swiperWrapper = document.querySelector('swiper-wrapper');
 const wwdContent1 = document.querySelector('.wwd-content-container-1');
@@ -195,31 +195,6 @@ for(let i = 0; i<swiperArray.length; i++){
     } 
    });
 }
-
-// SHRINK SIDE SWIPERS DOES NOT WORK?
-
-// let swiperArray2 = document.getElementsByClassName('swiper-slide');
-// for(let i = 0; i<swiperArray2.length; i++){
-//    clickAwayTrigger.addEventListener('mousemove', () => {
-//     if (swiperSlide1.classList.contains('swiper-slide-fully-visible')) {
-//         swiperSlide1.classList.remove('swiper-slide-shrink')
-//         swiperSlide2.classList.add('swiper-slide-shrink')
-//         swiperSlide3.classList.add('swiper-slide-shrink')
-//     } 
-       
-//     if (swiperSlide2.classList.contains('swiper-slide-fully-visible')) {
-//        swiperSlide1.classList.add('swiper-slide-shrink')
-//        swiperSlide2.classList.remove('swiper-slide-shrink')
-//        swiperSlide3.classList.add('swiper-slide-shrink')
-//     } 
-       
-//     if (swiperSlide3.classList.contains('swiper-slide-fully-visible')) {
-//         swiperSlide1.classList.add('swiper-slide-shrink')
-//         swiperSlide2.classList.add('swiper-slide-shrink')
-//         swiperSlide3.classList.remove('swiper-slide-shrink')
-//     } 
-//    });
-// }
 
 
 // AUTO SCROLL SLIDER
