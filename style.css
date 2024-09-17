@@ -166,6 +166,21 @@ body {
     transform: translateY(-250px);
   }
   
+  .nav li{
+    background: 
+    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1));
+  background-size: 0% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  .nav li:hover,
+  .nav li:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+  }
+
   /* element has this class and ID */
   .dropdown-menu#menu-1 {
     display: block;
@@ -207,9 +222,7 @@ body {
     padding-left: 0;
   }
   
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns 
-  https://css-tricks.com/guide-responsive-friendly-css-columns/
-  */
+
   #menu-2 .menu-item-list, 
   #menu-3 .menu-item-list {
     column-count: 2;
@@ -244,7 +257,7 @@ body {
     text-decoration: none;
   }
   
-  /* Notice you can do a hover state on an element, not just <a> links */
+
   .login:hover {
     background-color: #29387991;
     text-decoration: none;
@@ -253,13 +266,12 @@ body {
 
   @media (min-width: 1024px) {
     .login {
-      /* Hidden below 1085px - see above rule */
       display: block;
     }  
   }
 
   .hamburger-menu {
-    display: block; /* display:none starts to show up with responsive */
+    display: block;
     cursor: pointer;
     
   }
@@ -302,7 +314,7 @@ body {
   }
 
   .side-menu-header {
-    border-bottom: 1px solid rgba(255,255,255,.1); /* based on slack look, very faint */
+    border-bottom: 1px solid rgba(255,255,255,.1); 
     display: flex;
     justify-content: space-between;
     padding: 0 10px 10px 10px;  
@@ -310,7 +322,7 @@ body {
   
   .side-menu-content {
     color: #fff;
-    font-size: 24px; /* could use ems here too */
+    font-size: 24px;
     margin: 25px;
     padding-left: 0;
   }
@@ -626,14 +638,6 @@ justify-content: center;
   display: block;
 }
 
-/* .swiper-slide-shrink {
-  width: 50%;
-} */
-
-/* .swiper-pagination{
- 
-} */
-
 @media (min-width: 1024px){
 .swiper-pagination{
   display: none;
@@ -839,25 +843,6 @@ background-color: rgb(250, 250, 250);
     padding: 0 200px;
   }
 }
-
-/* WANTED A MASK FOR THE TEXT TO BE MORE VISIBLE */
-
-/* .swiper-text-mask {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    background-color: #ff0000;
-    z-index: 2;
-    width: 50%;
-    height: 50%;
-}
-
-.swiper-slide#auto-1 span.inner-text {
-  position: sticky;
-  z-index: 9999;
-  color: #ffe600;
-} */
-
 
 
 /* FOOTER */

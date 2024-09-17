@@ -70,7 +70,7 @@ const validatePassword = (e) => {
     capital.classList.contains("valid") && 
     number.classList.contains("valid") && 
     length.classList.contains("valid")) {
-        alert('placeholder if valid sumbition was made')
+        alert('placeholder if valid submition was made')
     }
 }
 
